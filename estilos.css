@@ -1,0 +1,81 @@
+body{
+    background-image: url(/img/fondo.jpg);
+    background-size: 100vw;
+}
+p{
+    color: aliceblue;
+    text-align: center;
+}
+
+h2{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font: small-caps 100%/200% serif;
+    font-size: 30px;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+form{
+    width: 450px;
+    margin: auto;
+    background: rgba(255, 183, 50, 0.7);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 7px;
+
+}
+
+input, textarea{
+    box-sizing: border-box;
+    border-radius: 3px;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+}
+
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+img{
+    padding-top: 10PX;
+}
+
+#boton{
+    background: rgb(0, 0, 0);
+    color: aliceblue;
+    padding: 10px;
+    width: 400px;
+    
+}
+a{
+    color: aliceblue;
+}
+
+#boton:hover{
+    cursor: pointer;
+}
+
+@media (max-width: 800px) {
+    body{
+        background-size: 1000px 100vh ;
+        background-position: fixed;
+    }
+    form{
+        width: 90%;
+    }
+
+    #boton{
+        align-content: center;
+        text-align: center;
+        width: 100%;
+    }
+    }
